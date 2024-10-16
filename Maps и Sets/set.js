@@ -21,10 +21,9 @@ setFlights.has('Russia') // false
 setFlights.add('Russia')
 setFlights.has('Russia') // true
 
+// преобразование в массив
+const arrFlights = [...setFlights]  // ['Russia', 'USA', 'London', 'Japan']
+console.log(arrFlights);
+
 // очистка
 setFlights.clear() // Set(0) {}
-
-// преобразование в массив
-const arrFlights = [...setFlights]
-
-console.log([...new Set('abcdda')].join(''));
