@@ -36,7 +36,7 @@ weatherMap2.size // 4
 //Итерация по мапе
 for (const [key, value] of weatherMap2) {
     // в ключе лежит ключ, в value значение
-   key, value; //London Rainy, Paris Cloudy,USA Sunny, Japan Sunny
+    key, value; //London Rainy, Paris Cloudy,USA Sunny, Japan Sunny
 
 }
 
