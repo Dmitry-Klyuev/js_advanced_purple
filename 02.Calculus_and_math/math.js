@@ -28,3 +28,17 @@ Math.ceil(1.6) // 2
 
 Math.floor(1.2) // 1
 Math.floor(1.6) // 1
+
+Math.trunc(1.4) // 1
+Math.trunc(1.6) // 1
+Math.trunc(2.3213) // 2
+
+1.49.toFixed(1) // '1.5'  !!!Возвращает строку!!!
+1.55323.toFixed(1) // '1.6'
+1.55323.toFixed(2) // '1.55'
+
+// Рандомное число от min до max
+const random = (min, max) => {
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
+random(1,10)
