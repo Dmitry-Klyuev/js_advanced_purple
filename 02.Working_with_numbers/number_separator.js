@@ -19,7 +19,7 @@ const options4 = {
     minimumFractionDigits: 0 // кол-во знаков после запятой
 }
 
-console.log(new Intl.NumberFormat('ru-RU', options1).format(100000)); // "100 000 ₽"
-console.log(new Intl.NumberFormat('ru-RU', options2).format(300000)); // "100 000.00 $"
-console.log(new Intl.NumberFormat('ru-RU', options3).format(500000)); // "500.00"
-console.log(new Intl.NumberFormat('ru-RU', options4).format(56)); // "56 км/ч"
+new Intl.NumberFormat('ru-RU', options1).format(100000); // "100 000 ₽"
+new Intl.NumberFormat('ru-RU', options2).format(300000); // "100 000.00 $"
+new Intl.NumberFormat('ru-RU', options3).format(500000); // "500.00"
+new Intl.NumberFormat('ru-RU', options4).format(56); // "56 км/ч"
